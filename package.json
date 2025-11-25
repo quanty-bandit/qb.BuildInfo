@@ -1,0 +1,22 @@
+{
+  "name": "com.quanty-bandit.qb.buildinfo",
+  "version": "1.0.0",
+  "displayName": "qb.BuildInfo",
+  "description": "Build version components",
+  "unity": "6000.2",
+  "gitDependencies": {
+	"com.codewriter.triinspector": "https://github.com/codewriter-packages/Tri-Inspector.git",
+    "com.quanty-bandit.pattern": "https://github.com/quanty-bandit/qb.Pattern.git"
+  },
+  "keywords": [
+    "Build version",
+	"Stage",
+	"Dev",
+	"Release"
+  ],
+  "author": {
+    "name": "quanty bandit",
+    "email": "pascal@quantybandit.com",
+    "url": "https://quantybandit.com"
+  }
+}
