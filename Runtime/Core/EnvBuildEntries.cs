@@ -5,6 +5,17 @@ using UnityEngine;
 
 namespace qb.EnvironmentBuild
 {
+    /// <summary>
+    /// Represents a collection of environment-specific entries, each associated with a build environment, allowing
+    /// access to values based on the current build configuration.
+    /// </summary>
+    /// <remarks>
+    /// This class is useful for managing values that vary between different build environments, such
+    /// as development, staging, or production. The current value is determined by the active environment specified in
+    /// the associated BuildInfo. Typically used in scenarios where environment-dependent configuration or resources are
+    /// required.
+    /// </remarks>
+    /// <typeparam name="T">The type of value stored for each build environment entry.</typeparam>
     [System.Serializable]
     public class EnvBuildEntries<T>
     {
