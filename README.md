@@ -55,3 +55,4 @@ Use the Unity package manager and the Install package from git url option.
 ## Dependencies
 
 https://github.com/quanty-bandit/qb.Pattern.git
+[GitHub - codewriter-packages/Tri-Inspector: Free inspector attributes for Unity [Custom Editor, Custom Inspector, Inspector Attributes, Attribute Extensions]](https://github.com/codewriter-packages/Tri-Inspector.git)
