@@ -12,7 +12,19 @@ using System.Threading.Tasks;
 
 namespace qb.EnvironmentBuild
 {
-    [CreateAssetMenu(fileName = "buildInfo", menuName = "qb/Environement/buildInfo", order = 1)]
+    /// <summary>
+    /// Provides build and environment metadata for the application, including version, build number, environment type,
+    /// and build date.
+    /// Intended for use in managing and accessing build-related information within the Unity project.
+    /// </summary>
+    /// <remarks>
+    /// This class is implemented as a ScriptableObject singleton and is typically used to centralize
+    /// build information for deployment, diagnostics, or environment-specific configuration. The build information is
+    /// set at design time and is read-only at runtime. 
+    /// For editor-only operations, such as updating the build number or environment, use the provided editor methods.
+    /// Thread safety is not guaranteed; access and modification should occur on the main thread within the Unity Editor.
+    /// </remarks>
+    [CreateAssetMenu(fileName = "buildInfo", menuName = "qb//Environement Build/Data/buildInfo", order = 1)]
     public class BuildInfo : SOSingleton<BuildInfo>
     {
         public enum EnvironmentType { Development, Stage, Production, PreProduction }

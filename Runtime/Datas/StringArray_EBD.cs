@@ -3,8 +3,8 @@ using UnityEngine;
 
 namespace qb.EnvironmentBuild
 {
-    [CreateAssetMenu(menuName = "qb/Environement Build/Data/StringArray_Single_EBD", fileName = "StringArray_Single_EBD")]
-    public class StringArray_Single_EBD: SingleEnvBuildData<string[]>
+    [CreateAssetMenu(menuName = "qb/Environement Build/Data/StringArray_EBD", fileName = "StringArray_EBD")]
+    public class StringArray_EBD: EnvBuildData<string[]>
     {
         public string GetValue(IConvertible index) 
         {
