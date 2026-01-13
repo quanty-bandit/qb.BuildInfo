@@ -1,6 +1,6 @@
 {
   "name": "com.quanty-bandit.buildinfo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "qb.BuildInfo",
   "description": "Build version components",
   "unity": "6000.2",
