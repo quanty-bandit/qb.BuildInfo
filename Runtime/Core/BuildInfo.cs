@@ -24,7 +24,7 @@ namespace qb.EnvironmentBuild
     /// For editor-only operations, such as updating the build number or environment, use the provided editor methods.
     /// Thread safety is not guaranteed; access and modification should occur on the main thread within the Unity Editor.
     /// </remarks>
-    [CreateAssetMenu(fileName = "buildInfo", menuName = "qb//Environement Build/Data/buildInfo", order = 1)]
+    [CreateAssetMenu(fileName = "buildInfo", menuName = "qb/Environement Build/Data/buildInfo", order = 1)]
     public class BuildInfo : SOSingleton<BuildInfo>
     {
         public enum EnvironmentType { Development, Stage, Production, PreProduction }
